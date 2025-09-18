@@ -1,0 +1,17 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    'db' => [
+        'host' => '127.0.0.1',
+        'database' => 'prompt_generator',
+        'user' => 'prompt_user',
+        'pass' => 'secret',
+        'charset' => 'utf8mb4',
+        'options' => [
+            PDO::ATTR_TIMEOUT => 5
+        ],
+    ],
+];
+
