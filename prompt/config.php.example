@@ -1,0 +1,9 @@
+<?php
+return array(
+    'host' => '127.0.0.1',
+    'port' => 3306,
+    'name' => 'prompt_generator',
+    'user' => 'db_user',
+    'pass' => 'db_pass',
+    'charset' => 'utf8mb4',
+);
